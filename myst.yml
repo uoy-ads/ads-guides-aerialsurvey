@@ -1,0 +1,44 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  banner: ads_logo.png
+  title: "Aerial Survey for Archaeology: A Guide to Good Practice"
+  subtitle: Archaeology Data Service & Digital Antiquity, 2011
+  description: This document is intended to be a Guide to Good Practice for the creation and preservation of digital resources resulting from aerial photography (incorporating optical and infra-red imagery collected from an airborne platform), satellite and airborne remote sensing (using a variety of sensors), and archaeological interpretations made from such data sources. Revised in 2011 by Bob Bewley and Kieron Niven.
+  keywords:
+    - archaeology
+    - aerial survey
+  authors:
+    - name: Bob Bewley
+      orcid: https://orcid.org/0000-0002-2378-283X
+    - name: Danny Donoghue
+    - name: Vince Gaffney
+      orcid: https://orcid.org/0000-0001-7918-0494
+    - name: Martijn van Leusen
+      orcid: https://orcid.org/0000-0002-4778-9534
+    - name: Alicia Wise
+      orcid: https://orcid.org/0000-0002-7898-3428
+    - name: Kieron Niven
+      orcid: https://orcid.org/0000-0002-0537-9238
+  license: CC-BY-4.0
+  open_access: true
+  doi: https://doi.org/10.5284/g02y-6y14
+  github: uoy-ads/ads-guides-aerialsurvey
+  toc:
+    - file: index.md
+    - file: content/1-Aims.md
+    - file: content/2-AerialPhotography.md
+    - file: content/3-DigitalData.md
+    - file: content/4-Documenting.md
+    - file: content/5-Archiving.md
+    - file: content/6-Bibliography.md
+  exports:
+    - format: pdf
+site:
+  template: book-theme
+  options:
+    favicon: images/g2gp_signpost.png
+    logo: images/g2gp_signpost.png
+    logo_text: Guides to Good Practice
+  parts:
+    footer: footer.md
